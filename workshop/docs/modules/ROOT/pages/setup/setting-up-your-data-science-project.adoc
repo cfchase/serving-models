@@ -1,0 +1,43 @@
+[id='setting-up-your-data-science-project']
+= Setting up your data science project
+
+To implement a data science workflow, you must create a data science project (as described in the following procedure). Projects allow you and your team to organize and collaborate on resources within separated namespaces.
+
+
+.Procedure
+
+** *Navigating to the {productname-short} dashboard*:
++
+.. After you log in to the OpenShift console, click the application launcher icon on the header.
++
+image::setup/ocp-console-ds-tile.png[{productname-short} dashboard link]
+
+.. When prompted, log in to the {productname-short} dashboard by using your OpenShift credentials. {productname-short} uses the same credentials as OpenShift for the dashboard, notebooks, and all other components.
++
+image::setup/login-with-openshift.png[OpenShift login, 300]
+
+The {productname-short} dashboard shows the *Home* page.
+
+. On the navigation menu, select *Data science projects*. This page lists any existing projects that you have access to. From this page, you can select an existing project (if any) or create a new one.
++
+image::setup/launch-jupyter-link.png[Launch Jupyter link]
+
+
+. Click *Create project*. 
+
+
+. Enter a display name and description.
++
+image::setup/ds-project-new-form.png[New data science project form, 600]
+
+. Click *Create*.
+
+.Verification
+
+You can see your project's initial state. Individual tabs provide more information about the project components and project access permissions:
+
+image::setup/ds-project-new.png[New data science project]
+
+.Next step
+
+xref:setup/running-a-script-to-install-storage.adoc[Running a script to install storage]

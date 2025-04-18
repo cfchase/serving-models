@@ -1,0 +1,31 @@
+site:
+  title: Serving Models 
+  start_page: serving-models-workshop::index.adoc
+content:
+  sources:
+    - url: ./..
+      start_path: workshop/docs
+asciidoc:
+  attributes:
+    release-version: master
+    page-pagination: true
+    deliverable: workshop
+    productname-long: Red Hat OpenShift AI
+    productname-short: OpenShift AI
+    org-name: Red Hat
+  extensions:
+    - ./lib/tab-block.js
+    - ./lib/remote-include-processor.js
+
+ui:
+  bundle:
+    # url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    # url: https://github.com/rhpds/rhdp_showroom_theme/releases/download/v0.0.1/ui-bundle.zip
+    url: https://github.com/redhat-developer-demos/rhd-tutorial-ui/releases/download/v0.1.9/ui-bundle.zip
+    # url: ./ui-bundle
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+    # - path: .nojekyll
+    # - path: ui.yml
+    #   contents: "static_files: [ .nojekyll ]"
+

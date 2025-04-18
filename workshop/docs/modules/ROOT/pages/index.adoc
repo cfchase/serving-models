@@ -1,0 +1,28 @@
+= Large Language Model (LLM) Serving {deliverable} with {productname-long}
+:page-layout: home
+:!sectids:
+
+[id='introduction']
+[.text-center.strong]
+== Introduction
+
+Welcome. In this {deliverable}, you will learn how to deploy models as API endpoints using OpenShift AI and make requests.  
+
+
+You use an example LLM to complete the following tasks in https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-ai[{productname-long}] without the need to install anything on your computer:
+
+* Deploy a containerized LLM model.
+* Create a Jupyter notebook.
+* Test the endpoint with a simple query.
+* Deploy an LLM model from object storage.
+
+
+== Before you begin
+
+* You should have access to an OpenShift cluster where {productname-long} is installed. 
+* If possible, you should have access to a cluster that has GPUs available, if not we've included instructions for deploying on a CPU-only cluster.
+
+If don't have access to a cluster that includes an instance of {productname-short}, check out https://demo.redhat.com[demo.redhat.com].
+
+
+If you're ready, xref:setup/setting-up-your-data-science-project.adoc[start the {deliverable}].

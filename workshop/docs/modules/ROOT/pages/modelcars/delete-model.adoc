@@ -1,0 +1,7 @@
+[id='delete-model']
+= Delete a model 
+
+
+.Next step
+
+xref:preparing-a-model-for-deployment.adoc[Preparing a model for deployment]

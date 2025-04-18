@@ -1,0 +1,83 @@
+[id='creating-a-workbench']
+= Creating a workbench
+
+A workbench is an instance of your development and experimentation environment. When you create a workbench, you select a workbench image (sometimes referred to as a notebook image) that is optimized with the tools and libraries that you need for developing models. 
+
+.Prerequisites
+
+* You created a `My Storage` connection as described in xref:storing-data-with-connections.adoc[Storing data with connections].
+
+
+.Procedure
+
+. Navigate to the project detail page for the data science project that you created in xref:setup/setting-up-your-data-science-project.adoc[Setting up your data science project].
+
+. Click the *Workbenches* tab, and then click the *Create workbench* button.
++
+image::modelcars/ds-project-create-workbench.png[Create workbench button, 600]
+
+. Fill out the name and description.
++
+image::modelcars/create-workbench-form-name-desc.png[Workbench name and description, 600]
++
+{org-name} provides several supported workbench images. In the *Notebook image* section, you can choose one of the default images or a custom image that an administrator has set up for you. The *Tensorflow* image has the libraries needed for this {deliverable}.
+
+. Select the latest *Standard Data Science* image.
++
+image::modelcars/create-workbench-form-image.png[Workbench image, 600]
+
+. Choose a small deployment.
++
+image::modelcars/create-workbench-form-size.png[Workbench size, 600]
+
+.  Edit the storage options and increase the storage size to 100GB.
++
+This is optional and only needed if you plan on downloading models to object storage later in the workshop.
++
+image::modelcars/create-workbench-form-storage-options.png[Workbench storage, 600]
++
+image::modelcars/create-workbench-form-edit-storage.png[Workbench storage, 600]
+
+. For *Connections*, click *Attach existing connection*.
+
+. Select `My Storage` (the object storage that you configured previously) and then click *Attach*.
++
+image::modelcars/create-workbench-form-data-connection.png[Connection form, 600]
+
+. Click *Create workbench*.
+
+
+. Click the link for your workbench. If prompted, log in and allow the Notebook to authorize your user.
++
+image::modelcars/ds-project-workbench-open.png[Open workbench, 400]
++
+Your JupyterLab environment window opens.
++
+This file-browser window shows the files and folders that are saved inside your own personal space in {productname-short}.
+
+. Bring the content of this {deliverable} inside your JupyterLab environment:
+
+.. On the toolbar, click the *Git Clone* icon:
++
+image::modelcars/jupyter-git-icon.png[Git Clone icon, 200]
+
+.. Enter the following {deliverable} Git *https* URL:
++
+[.lines_space]
+[.console-input]
+[source,text]
+----
+https://github.com/cfchase/serving-models.git
+----
++
+image::modelcars/jupyter-git-modal.png[Git Modal, 300]
+
+.. Select the *Include submodules* option, and then click *Clone*.
+
+.. In the file browser, double-click the newly-created *serving-models* folder.
++
+image::modelcars/jupyter-file-browser.png[Jupyter file browser, 300]
+
+.Next step
+
+xref:modelcars/using-the-api.adoc[3. Using the API]

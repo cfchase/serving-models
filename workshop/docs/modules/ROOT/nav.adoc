@@ -1,0 +1,22 @@
+* 1. Setting up your environment
+// ** xref:setup/cpu-serving-runtime.adoc[1. Optional CPU Only Setup]
+** xref:setup/setting-up-your-data-science-project.adoc[1. Data Science Projects]
+** xref:setup/running-a-script-to-install-storage.adoc[2. Storage Setup]
+
+* 2. LLM ModelCars
+** xref:modelcars/deploy-llm-modelcar-gpu.adoc[1. Deployment]
+// ** xref:modelcars/deploy-llm-modelcar-cpu.adoc[2. Alt Deployment w/ CPU]
+** xref:modelcars/creating-a-workbench.adoc[2. Create a Workbench]
+** xref:modelcars/using-the-api.adoc[3. Using the API]
+** xref:modelcars/delete-model.adoc[4. Delete the Model]
+
+* 3. LLMs on Object Storage
+** xref:download-model.adoc[1. Download the Model]
+** xref:deploy-llm-object-storage-gpu.adoc[2.  Deployment]
+// ** xref:deploy-llm-object-storage-cpu.adoc[3. CPU Deployment]
+** xref:using-the-api.adoc[3. Using the API]
+
+* 4. xref:resources/additional-resources.adoc[4. Additional Resources]
+
+
+
