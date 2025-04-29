@@ -19,9 +19,6 @@ function watchGlobs() {
     `${source.url}/**/**.yml`,
     `${source.url}/**/**.adoc`,
     `${source.url}/**/**.hbs`,
-    `${source.url}/**/**.png`,
-    `${source.url}/**/**.css`,
-    `${source.url}/**/**.js`,
   ]);
   dirs.push(["antora-playbook.yml"]);
   dirs = [].concat(...dirs);

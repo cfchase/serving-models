@@ -1,0 +1,69 @@
+[id='deploying-a-model']
+= Deploying a model
+
+{productname-short} can deploy models using vLLM with single-model serving.
+
+
+.Prerequisites
+
+* A user with `admin` privileges has enabled the single-model serving platform on your OpenShift cluster.
+
+.Procedure
+
+. In the {productname-short} dashboard, navigate to the project details page and click the *Models* tab.
+. In the *Single-model serving platform* tile, click *Select single-model*.
++
+image::storage/ds-project-model-list-add.png[Models Serving Mode, 600]
++
+NOTE: Depending on how model serving has been configured on your cluster, you might see only one model serving platform option.
+. In the form, provide the following values:
+.. For *Model deployment name*, type `Granite 3.3`.
+.. For *Serving runtime*, select `vLLM NVIDIA GPU ServingRuntime for KServe` for deployment on NVIDIA GPUs.  If you are using Intel or AMD GPUs, select vLLM Intel or AMD GPU.
+.. For *Model framework (name - version)*, select `vLLM`.
+.. For *Deployment mode*, select `Standard`.
++
+image::storage/deploy-model-form-1.png[Deploy model form 1, 600]
+.. For *Number of model server replicas to deploy*, select `1`.
+.. For *Model server size*, select `Custom`.
+.. For *CPUs requested* select `1`
+.. For *CPU limit*, select `4`
+.. For *Memory requested*, select `16Gi`
+.. For *Memory limit*, select `24Gi`
+.. For *Accelerator*, select `NVIDIA GPU` or the appropriate accelerator for your cluster.
+.. For *Number of accelerators*, select `1`.
++
+image::storage/deploy-model-form-2.png[Deploy model form 2, 600]
+.. For *Model route*, select the checkbox for `Make deployed models available through an external route`.
+.. For *Token Authentication*, select the checkbox for `Require token authentication`.
++
+image::storage/deploy-model-form-3.png[Deploy model form 3, 600]
+.. For *Source model location*, select `Existing connection`.
+.. For *Connection name*, select My Storage`.
+.. For *Path*, type the path to the model files, by default it is `models/granite-3.3-8b-instruct/`.
++
+image::storage/deploy-model-form-4.png[Deploy model form 4, 600]
+
+. For *Configuration Parameters - Additional serving runtime arguments*, enter the following argument:
++
+[.lines_space]
+[.console-input]
+[source,text]
+----
+--max-model-len=4096
+----
++
+image::storage/deploy-model-form-5.png[Deploy model form 5, 600]
+. Click *Deploy*.
++
+image::storage/deploy-model-form-button.png[Deploy model form button, 100]
+
+
+.Verification
+
+Notice the loading symbol under the *Status* section. The symbol changes to a green checkmark when the deployment completes successfully.
+
+image::storage/ds-project-model-list-status.png[Deployed model status, 350]
+
+.Next step
+
+xref:storage/using-the-api.adoc[Using the API]

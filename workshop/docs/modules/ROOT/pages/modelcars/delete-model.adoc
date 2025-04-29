@@ -1,7 +1,19 @@
 [id='delete-model']
 = Delete a model 
 
+If you'd like to conserve GPU resources, you can delete the model after you're done using the API.
+
+.Procedure
+
+. In the {productname-short} dashboard, navigate to the project details page and click the *Models* tab. 
+
+. Click on the kebab icon and select *Delete*.
++
+image::modelcars/ds-project-model-options.png[Model options, 800]
++
+image::modelcars/ds-project-model-delete.png[Model deleted, 100]
+
 
 .Next step
 
-xref:preparing-a-model-for-deployment.adoc[Preparing a model for deployment]
+xref:storage/download-model.adoc[LLMs on Object Storage]

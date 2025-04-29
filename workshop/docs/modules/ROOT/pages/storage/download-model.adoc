@@ -1,0 +1,10 @@
+[id='download-model']
+= Download a model 
+
+In your notebook environment, open the `2_download_save.ipynb` file and follow the instructions directly in the notebook. The notebook will download a model from Hugging Face and save it to your object storage bucket.
+
+image::storage/jupyter-notebook-1.png[Jupyter Notebook 1]
+
+.Next step
+
+xref:storage/deploy-llm-object-storage-gpu.adoc[Deployment]

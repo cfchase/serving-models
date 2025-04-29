@@ -11,10 +11,10 @@
 ** xref:modelcars/delete-model.adoc[4. Delete the Model]
 
 * 3. LLMs on Object Storage
-** xref:download-model.adoc[1. Download the Model]
-** xref:deploy-llm-object-storage-gpu.adoc[2.  Deployment]
+** xref:storage/download-model.adoc[1. Download the Model]
+** xref:storage/deploy-llm-object-storage-gpu.adoc[2.  Deployment]
 // ** xref:deploy-llm-object-storage-cpu.adoc[3. CPU Deployment]
-** xref:using-the-api.adoc[3. Using the API]
+** xref:storage/using-the-api.adoc[3. Using the API]
 
 * 4. xref:resources/additional-resources.adoc[4. Additional Resources]
 

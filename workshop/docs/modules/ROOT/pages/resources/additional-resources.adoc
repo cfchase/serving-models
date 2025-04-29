@@ -1,5 +1,6 @@
 [id='additional-resources']
 = Additional Resources
 
+To learn more about Generative AI, including Retrieval Augmented Generation (RAG), combining with predictive AI, and more, try out the https://catalog.demo.redhat.com/catalog?item=babylon-catalog-prod/sandboxes-gpte.ocp-wksp-ai-parasol-insurance.prod&utm_source=webapp&utm_medium=share-link[Parasol Insurance workshop].
 
-
+To learn more about OpenShift AI and predictive AI, try out the https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/2-latest/html/openshift_ai_tutorial_-_fraud_detection_example/index[Fraud Detection Tutorial].

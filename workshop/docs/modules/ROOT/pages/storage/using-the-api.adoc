@@ -10,16 +10,16 @@ Now that you've deployed the model, you can test its API endpoints.
 
 . Click on the model information and take note of the *Inference endpoint* URL and the *Token secret* value.
 +
-image::modelcars/ds-project-model-inference-endpoint.png[Model inference endpoint, 800]
+image::storage/ds-project-model-inference-endpoint.png[Model inference endpoint, 800]
 
 . Return to the JupyterLab environment and try out your new endpoint.
 +
 Follow the directions in `1_openai_requests.ipynb` to try a OpenAI API call.
 +
-image::modelcars/notebook-open-ai-request.png[Notebook OpenAI request, 800]
+image::storage/notebook-open-ai-request.png[Notebook OpenAI request, 800]
 
 
 
 .Next step
 
-xref:modelcars/delete-model.adoc[Delete the model]
+xref:resources/additional-resources.adoc[Additional Resources]

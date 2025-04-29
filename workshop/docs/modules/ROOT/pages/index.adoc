@@ -1,5 +1,4 @@
 = Large Language Model (LLM) Serving {deliverable} with {productname-long}
-:page-layout: home
 :!sectids:
 
 [id='introduction']
