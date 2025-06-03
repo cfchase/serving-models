@@ -14,7 +14,7 @@ image::storage/ds-project-model-inference-endpoint.png[Model inference endpoint,
 
 . Return to the JupyterLab environment and try out your new endpoint.
 +
-Follow the directions in `1_openai_requests.ipynb` to try a OpenAI API call.
+Follow the directions in `1_openai_requests.ipynb` to try an OpenAI API call.
 +
 image::storage/notebook-open-ai-request.png[Notebook OpenAI request, 800]
 
