@@ -5,7 +5,7 @@ A workbench is an instance of your development and experimentation environment. 
 
 .Prerequisites
 
-* You created a `My Storage` connection as described in xref:storing-data-with-connections.adoc[Storing data with connections].
+* You created a `My Storage` connection as described in xref:setup/running-a-script-to-install-storage.adoc[Storage Setup].
 
 
 .Procedure
@@ -20,7 +20,7 @@ image::modelcars/ds-project-create-workbench.png[Create workbench button, 600]
 +
 image::modelcars/create-workbench-form-name-desc.png[Workbench name and description, 600]
 +
-{org-name} provides several supported workbench images. In the *Notebook image* section, you can choose one of the default images or a custom image that an administrator has set up for you. The *Tensorflow* image has the libraries needed for this {deliverable}.
+{org-name} provides several supported workbench images. In the *Notebook image* section, you can choose one of the default images or a custom image that an administrator has set up for you. The *Standard Data Science* image has the libraries needed for this {deliverable}.
 
 . Select the latest *Standard Data Science* image.
 +

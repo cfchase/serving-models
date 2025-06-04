@@ -16,7 +16,7 @@
 image::storage/ds-project-model-list-add.png[Models Serving Mode, 600]
 +
 NOTE: Depending on how model serving has been configured on your cluster, you might see only one model serving platform option.
-. In the form, provide the following values:
+. Click the *Deploy model* button, then provide the following values in the form:
 .. For *Model deployment name*, type `Granite 3.3`.
 .. For *Serving runtime*, select `vLLM NVIDIA GPU ServingRuntime for KServe` for deployment on NVIDIA GPUs.  If you are using Intel or AMD GPUs, select vLLM Intel or AMD GPU.
 .. For *Model framework (name - version)*, select `vLLM`.
@@ -27,8 +27,8 @@ image::storage/deploy-model-form-1.png[Deploy model form 1, 600]
 .. For *Model server size*, select `Custom`.
 .. For *CPUs requested* select `1`
 .. For *CPU limit*, select `4`
-.. For *Memory requested*, select `16Gi`
-.. For *Memory limit*, select `24Gi`
+.. For *Memory requested*, select `16GiB`
+.. For *Memory limit*, select `24GiB`
 .. For *Accelerator*, select `NVIDIA GPU` or the appropriate accelerator for your cluster.
 .. For *Number of accelerators*, select `1`.
 +

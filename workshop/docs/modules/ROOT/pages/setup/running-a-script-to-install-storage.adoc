@@ -13,8 +13,6 @@ For this {deliverable}, you run a provided script that creates the following loc
 
 The provided script also creates a connection to the storage bucket. 
 
-Running a script to install local object storage buckets and create connections
-
 For convenience, run a script (provided in the following procedure) that automatically completes these tasks:
 
 * Creates a Minio instance in your project.
@@ -123,7 +121,7 @@ spec:
 .  In the {productname-short} dashboard:
 
 .. Select *Data science projects* and then click the name of your project, *UserX Models*.
-.. Click *Connections*. You should see two connections listed: `My Storage` and `Pipeline Artifacts`.
+.. Click *Connections*. You should see one connection listed: `My Storage`.
 + 
 image::setup/ds-project-connections.png[Connections]
 
